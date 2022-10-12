@@ -1,7 +1,7 @@
 N = int(input())
 
 for i in range(N):
-    sqr_num = str(i**2)
-    str_i = str(i)
-    if sqr_num[-len(str_i):] == list(str_i):
+    last_number = str(i)[-1]        #Превращаем число в строку, потом получаем последний символ строк([-1] так как строка в Python это так же список символов)
+    if last_number == "3":          #Проверяем является ли последний символ 3 и если да принтим
         print(i)
+
