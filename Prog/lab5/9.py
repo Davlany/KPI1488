@@ -10,4 +10,4 @@ while c <= d:
     res_list.append(y)
     c+=0.001
 
-print(min(res_list))
+print(max(res_list))
